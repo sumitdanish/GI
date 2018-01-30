@@ -1,6 +1,8 @@
 package cm.gojeck.entity;
 
-import cm.gojeck.inputstrategy.*;
+import cm.gojeck.inputstrategy.FileInput;
+import cm.gojeck.inputstrategy.InputContext;
+import cm.gojeck.inputstrategy.UserInput;
 
 public class Main {
 
@@ -12,6 +14,7 @@ public class Main {
 			InputContext input = new InputContext(new FileInput());
 			input.execute(args[0].trim());
 		}
+		//System.out.println(40>>>2);
 		
 	}
 

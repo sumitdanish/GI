@@ -9,7 +9,6 @@ public class CustomMap<K, V> {
 	private Entry<K, V>[] mapEntry;
 	private int resevedSize;
 	private int freeSize;
-
 	@SuppressWarnings("unchecked")
 	public CustomMap(int size) {
 		this.size = size;

@@ -14,6 +14,11 @@ public class HeapImpl {
 	    return this;
 	  }
 
+	  /*
+	  *
+	  * This method is used to create initialise the minHeap Tree
+	  * */
+
 	  protected void bubbleUp(int index) {
 	    int parentIndex =  index / 2;
 	    if (index == 1 || this.data[parentIndex] < this.data[index]){
